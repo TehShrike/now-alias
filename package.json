@@ -1,0 +1,24 @@
+{
+  "name": "now-alias",
+  "version": "1.0.0",
+  "description": "Assign an alias to a recent \"now\" deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TehShrike/now-alias.git"
+  },
+  "keywords": [
+    "now",
+    "alias",
+    "zeit"
+  ],
+  "author": "TehShrike",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/TehShrike/now-alias/issues"
+  },
+  "homepage": "https://github.com/TehShrike/now-alias#readme"
+}
