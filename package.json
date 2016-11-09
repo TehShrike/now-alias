@@ -2,6 +2,12 @@
   "name": "now-alias",
   "version": "1.0.0",
   "description": "Assign an alias to a recent \"now\" deployment",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "bin": {
+    "now-alias": "./index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/TehShrike/now-alias/issues"
   },
-  "homepage": "https://github.com/TehShrike/now-alias#readme"
+  "homepage": "https://github.com/TehShrike/now-alias#readme",
+  "dependencies": {
+    "minimist": "1.2.0",
+    "now-client": "0.6.0"
+  }
 }
