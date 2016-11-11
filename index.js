@@ -29,7 +29,7 @@ if (!argv.alias || !argv.name) {
 -a  --alias       [required]
   (mysweetapp.com)`)
 
-	return
+	process.exit(1)
 }
 
 const now = new Now(argv.token)
